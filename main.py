@@ -3,7 +3,7 @@
 
 Writes exactly one word -- the whole internet in a single word -- to
 /output/entry.txt. No arguments, no network, no randomness: two runs
-write byte-identical files.
+write byte-identical files, as the gate's determinism check requires.
 """
 import os
 
